@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "endportallock",
 	"version": "${version}",
-	"name": "End Portal Lock",
+	"name": "Custom End Portals",
 	"description": "Allows modpack creators to change the items used to open an End Portal!",
 	"authors": [
-		"Me!"
+		"trashoflevillage"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"kofi": "https://ko-fi.com/trashoflevillage",
+		"sources": "https://github.com/trashoflevillage/end-portal-lock"
 	},
 	"license": "MIT",
 	"icon": "assets/endportallock/icon.png",
@@ -33,7 +33,7 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.16.7",
+		"fabricloader": ">=0.16.5",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
